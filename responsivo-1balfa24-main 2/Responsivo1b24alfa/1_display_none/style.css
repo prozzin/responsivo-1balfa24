@@ -1,0 +1,41 @@
+.produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.item .imagem img {
+    width: 100%;
+}
+.quarto, .none{
+    display: none;
+}
+@media (min-width:481px) and (max-width:1199px) {
+    .ads{
+        display: block;
+        width: 250px;
+        margin: 50px auto;
+    }
+    
+}
+
+@media(max-width:480px) {
+    .item {
+        width: 100%;
+    }
+.quarto{
+    display: block;
+}
+
+.terceiro{
+    display: none;
+}
+
+}
+

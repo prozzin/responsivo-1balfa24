@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(103, 101, 101);
+}
+@media (max-width:767px) {
+    body{
+        background-color: black;
+    }
+    
+}
+@media (max-width:480px){ 
+    body{
+        background-color: rgb(255, 0, 0);
+    }
+
+    
+}
+@media (min-width:768px) and (max-width:979px) {
+    body{
+        background-color: yellow;
+    }
+    
+}

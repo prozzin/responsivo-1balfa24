@@ -1,0 +1,18 @@
+body {
+    background-color: #000;
+}
+@media(min-width:768px) and (max-width:979px){
+    body{
+        background-color: brown;
+    }
+}
+@media (max-width:767px){
+    body{
+        background-color: azure;
+    }
+}
+@media (max-width:480px) {
+    body {
+        background-color: aqua;
+    }
+}
